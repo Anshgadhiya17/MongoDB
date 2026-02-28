@@ -65,7 +65,7 @@ npm install mongodb
 ```js
 const { MongoClient } = require("mongodb");
 
-const client = new MongoClient("mongodb://localhost:27017");
+const client = new MongoClient("Localhost URI");
 
 async function connect() {
   await client.connect();
